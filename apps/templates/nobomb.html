@@ -1,0 +1,18 @@
+<!--成功加入关注-->
+<div class="cancel modal-backdrops fade" ng-if="noshowDialog"  ng-class="{'in':noshowDialog,'display-block':noshowDialog,'display-none':!noshowDialog}">
+	<div class="cancel-box" style="position: fixed;margin-top: -130px;">
+		<div class="tip">
+			<button class="closebtn" ng-click="nocloseBox()"></button>
+		</div>
+		<div>
+			<span class="tuImage"></span>
+		</div>
+		<p id="errorp">确定删除关注？</p>
+		<p id="oknoP">
+			<span class="noattent" ng-click="noattent()">确认</span>
+			<span class="okattent" ng-click="okattent()">取消</span>
+		</p>
+	</div>
+</div>
+<!-- 公用遮罩层  保存、加载... -->
+<div style="z-index:1002;opacity: 0;" ng-if="noshowDialog" class="modal-backdrop fade " ng-class="{'in': noshowDialog, 'display-block': noshowDialog, 'display-none':!noshowDialog}"></div>

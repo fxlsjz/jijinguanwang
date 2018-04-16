@@ -1,0 +1,10 @@
+{
+    "bannerC": [
+        {
+	    	"images":"apps/images/contact/lxwm_pic1.png"
+        },
+        {
+	   		"images":"apps/images/contact/lxwm_pic2.png"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+<div class="">
+	<div class="back-25 h49"></div>
+	<div class="h99">
+		<div class="wNav">
+			<div class="wLogo"></div>
+			<ul class="wUl">
+				<li ng-class="{'activeW':current == 0}" ng-click="chan(0)">首页</li>
+				<li ng-class="{'activeW':current == 1}" ng-click="chan(1)">占位</li>
+				<li ng-class="{'activeW':current == 2}" ng-click="chan(2)">占位</li>
+				<li ng-class="{'activeW':current == 3}" ng-click="chan(3)">占位</li>
+				<li ng-class="{'activeW':current == 4}" ng-click="chan(4)">占位</li>
+				<li ng-class="{'activeW':current == 5}" ng-click="chan(5)">占位</li>
+				<li ng-class="{'activeW':current == 6}" ng-click="chan(6);Login()" >立即登录</li>
+				<li ng-class="{'activeW':current == 7}" ng-click="chan(7)">联系我们</li>
+			</ul>
+		</div>
+	</div>
+	<div ></div>
+	<div id="banner">
+		<div class="centers">
+			<div class="map">
+				<div class="mapimg"></div>
+			</div>
+			<div class="fr welcometext">
+				<div class="h70"></div>			
+				<div class="introduce"></div>
+				<div class="clear"></div>
+				<div class="h45"></div>
+				<div class="loginBtn" ng-click="Login()">立即登录</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div class="welcomefooter"></div>
+	<div class="" ui-view=""/></div>
+</div>

@@ -1,0 +1,22 @@
+
+.about .aboutTeam {
+    position: absolute;
+    top: -7px;
+    background-image: url(../../../images/about/gywm_hezuohuoban_bg.png);
+    width: 142px;
+    height: 41px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}
+.about .team{
+	padding: 25px;
+	padding-top: 60px;
+}
+.about .teamIma{
+	width: 600px;
+	height: 350px;
+	display: block;
+	margin: 0 auto;	
+}
+

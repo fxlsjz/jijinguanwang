@@ -1,0 +1,49 @@
+<div class="">
+	<div class="headers m-b-63">
+		<div class="wNav">
+			<div class="wLogo"></div>
+			<ul class="wUl">
+				<li ui-sref="navCut.index" ng-class="{true: 'index_check', false: ''}[tabName == '/index']">首页</li>
+				<li ui-sref="navCut.product" ng-class="{true: 'product_check', false: ''}[tabName == '/product?hashID&rnd']">产品介绍</li>
+				<li ui-sref="navCut.solution" ng-class="{true: 'solution_check', false: ''}[tabName == '/solution?hashIDS&rndS']">解决方案</li>
+				<li ui-sref="navCut.about.aboutCompany" ng-class="{true: 'about_check', false: ''}[tabName == '/about']">关于我们</li>
+				<li ui-sref="navCut.contact" ng-class="{true: 'contact_check', false: ''}[tabName == '/contact']">联系我们</li>
+			</ul>
+		</div>
+	</div>
+	<div class="h63"></div>
+	<div class="w1920" ui-view=""/></div>
+	<div class="footers">
+		<ul class="footers-ul clearfix">
+			<li>
+				<h6>产品介绍</h6>
+				<hr id="hr" />
+				<p ng-repeat="item in barOne">
+					<span ng-bind="item.Name" ng-click="jumpProduct($index)"></span>
+				</p>				
+			</li>
+			<li>
+				<h6>解决方案</h6>
+				<hr id="hr" />
+				<p ng-repeat="itemT in barTwo">
+					<span ng-bind="itemT.NameT" ng-click="jumpSolution($index)"></span>
+				</p>				
+			</li>
+			<li>
+				<h6>关于我们</h6>
+				<hr id="hr" />
+				<p ng-repeat="itemThree in barThree">
+					<span ng-bind="itemThree.NameThree" ng-click="jumpAbout($index)"></span>
+				</p>				
+			</li>
+			<li>
+				<h6>联系我们</h6>
+				<hr id="hr" />
+				<p ng-repeat="itemF in barF">
+					<span ng-bind="itemF.NameF"></span>
+				</p>				
+			</li>
+		</ul>
+	</div>
+	<div class="footers-p">@Copyright 2007-2016 cyzone.cn All rights reserved Beijing ICP certificate 070362 number</div>
+</div>

@@ -1,0 +1,104 @@
+.indexCtrl{
+	width: 1920px;
+}
+.indexCtrl .banner{
+	height: 540px; 
+	background: #0000FF;
+}
+.indexCtrl .product{
+	width: 1120px; 
+	margin: 0 auto;
+	 /*background: #0099CC;*/
+}
+.product h4{
+	font-size: 28px; 
+	color: #555555; 
+	padding: 64px 0px 55px; 
+	margin: 0px; 
+	text-align: center;
+}
+.product .product-ul{
+	padding-bottom: 85px;
+}
+.product .product-ul li{
+	width: 276px; 
+	height: 282px; 
+	background: #fff; 
+	float: left; 
+	margin-right: 5px;
+	text-align: center;
+}
+.product .product-ul li:nth-of-type(4n){
+	margin-right: 0px; 
+}
+.product .product-ul li span{
+	display: block;
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.product .product-ul li img{
+	display: block;
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+/*.one{
+	background-image: url(../../../images/index/home_chanpingongneng.png);
+}
+.two{
+	background-image: url(../../../images/index/home_chanpingongneng2.png);
+}
+.three{
+	background-image: url(../../../images/index/home_chanpingongneng3.png);
+}
+.four,.background-img{
+	background-image: url(../../../images/index/home_chanpingongneng4.png);
+}*/
+.product .product-ul li:hover{
+	background: #3355a3;
+}
+.product .product-ul li:hover .c-555,.product .product-ul li:hover .c-888{
+	color: #fff;
+}
+/*.product .product-ul li:hover .one{
+	background-image: url(../../../images/index/home_chanpingongneng_pressed.png);
+}
+.product .product-ul li:hover .two{
+	background-image: url(../../../images/index/home_chanpingongneng2_pressed.png);
+}
+.product .product-ul li:hover .three{
+	background-image: url(../../../images/index/home_chanpingongneng3_pressed.png);
+}
+.product .product-ul li:hover .four{
+	background-image: url(../../../images/index/home_chanpingongneng4_pressed.png);
+}*/
+
+
+.carousel-control {  
+	display: none;  
+}  
+  
+.carousel-caption {  
+	text-shadow: none;  
+} 
+ 
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.carousel-indicators .active {
+    
+    margin-left: 10px;
+}

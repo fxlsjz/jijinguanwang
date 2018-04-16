@@ -1,0 +1,15 @@
+<!--成功加入关注-->
+<div class="cancel modal-backdrops fade" ng-if="showCode"  ng-class="{'in':showCode,'display-block':showCode,'display-none':!showCode}">
+	<div class="cancel-box" style="top: 60px;margin-left: -150px;width: 290px;height: 290px;">
+		<div class="tip"><!--width: 380px;height: 365px;-->
+			<button class="closebtn" ng-click="closeBox()"></button>
+		</div>
+		<div>
+			<p class="loadimg"></p>
+			<!--<p ng-click = "xiazai()">下载按钮</p>-->
+		</div>
+		
+	</div>
+</div>
+<!-- 公用遮罩层  保存、加载... -->
+<div style="z-index:100;" ng-if="showCode" class="modal-backdrop fade " ng-class="{'in': showCode, 'display-block': showCode, 'display-none':!showCode}"></div>

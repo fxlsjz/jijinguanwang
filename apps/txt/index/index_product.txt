@@ -1,0 +1,25 @@
+﻿{
+    "sites": [
+        {
+            "Name": "定量分析",
+	    "images":"apps/images/index/home_chanpingongneng.png",
+	    "englishName":"Quantitative analysis"
+        },
+        {
+            "Name": "数据透视",
+	    "images":"apps/images/index/home_chanpingongneng2.png",
+	    "englishName":"PivotTable"
+        },
+        {
+            "Name": "风险分析",
+	    "images":"apps/images/index/home_chanpingongneng3.png",
+	    "englishName":"Risk Analysis"
+        },
+        {
+            "Name": "投后监控",
+	    "images":"apps/images/index/home_chanpingongneng4.png",
+	    "englishName":"Risk monitoring"
+        }
+    ]
+}
+

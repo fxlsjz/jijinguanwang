@@ -1,0 +1,60 @@
+
+.solution{
+	background-color: #fff;
+}
+.solution ul{
+	/*width: 1120px;*/
+	margin: 0 auto;
+}
+.solution ul li{
+	background-color: #fff;
+	height: 377px;
+}
+.solution ul li .w1120{
+	width: 1120px;
+	margin: 0 auto;
+}
+.solution ul li:hover{
+	background-color: #F2F3F7;
+}
+.solution .imgLeft{
+	display: inline-block;
+	float: left;
+}
+.solution .imgLeft span{
+	display: inline-block;
+	width: 175px;
+	height: 279px;
+	background-image: url(../../../images/solution/jjfa_zuoce_pic.png);
+}
+.solution .imgLeft img{
+	display: inline-block;
+	width: 175px;
+	height: 279px;
+}
+.solution .wordsRight{
+	display: inline-block;
+	float: left;
+	padding-top: 105px;
+	padding-left: 100px;
+}
+.solution .wordsRight .c-555{
+	font-size: 30px;
+}
+.solution .wordsRight .f-z20{
+	padding-top: 4px;
+}
+.solution .wordsRight .borLine{
+	width: 87px;
+	height: 4px;
+	margin-top:15px;
+	background-color:#3355a3;
+}
+.solution .wordsRight .content{
+	width: 840px;
+	padding: 0;
+	font-size: 14px;
+	color: #555;
+	line-height: 24px;
+	padding-top: 26px;
+}

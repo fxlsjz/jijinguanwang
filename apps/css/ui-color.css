@@ -1,0 +1,91 @@
+@charset "utf-8";
+.back-tab{
+	background-color:#334B77;
+}
+.back-blue{
+	background-color:#4D70B0;
+}
+.back-tab-check{
+	background-color:#476BA7;
+}
+.back-gray{
+	background-color:#f2f2f2;
+}
+.back-white{
+	background-color:#fff;
+}
+.back-25{
+	background-color:#252525;
+}
+.back-lightblue{
+	background-color:#e5efff;
+}
+
+.c-red{
+	color:#cf2a2a;
+}
+.c-blue{
+	color:#6CBCE1;
+}
+.c-fff{
+	color:#fff;
+}
+.c-333{
+	color:#333;
+}
+.c-555{
+	color:#555;
+}
+.c-666{
+	color:#666;
+}
+.c-888{
+	color:#888;
+}
+.c-4c4c4c{
+	color:#4c4c4c;
+}
+.c-5e8ddc{
+	color:#5e8ddc;
+}
+.c-808080{
+	color:#808080;
+}
+.c-3577e0{
+	color:#3577e0;
+}
+.c-6a7883{
+	color:#6a7883;
+}
+.c-cf2a2a{
+	color: #cf2a2a;
+}
+.c-6dbbdf{
+	color: #6dbbdf;
+}
+.c-638cd5{
+	color: #638cd5;
+}
+.c-4f76b9{
+	color: #4f76b9;
+}
+.c-dedede{
+	color: #dedede;
+}
+.c-de1818{
+	color: #de1818;
+}
+.c-1288db{
+	color: #1288db;
+}
+.c-3355a3{
+	color: #3355a3;
+}
+.c-c2c2c2{
+	color: #c2c2c2;
+}
+
+
+.b-b-gray{
+	border-bottom:1px solid #dedede;
+}

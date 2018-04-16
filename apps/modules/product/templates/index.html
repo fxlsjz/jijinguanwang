@@ -1,0 +1,18 @@
+<div class="proDuct">
+	<ul class="w1200 clearfix">
+		<li class="w360" id="offset{{$index}}" ng-repeat="item in proList">
+			<img  ng-src="{{item.images | baseUrl}}" alt="" />
+			<div class="p-t-15 f-z20 c-555 t-a-c" ng-bind="item.title"></div>
+			<div class="f-z14 c-888 p-l-20 p-r-20 line-ellipsis-3" ng-bind="item.content"></div>
+			<div class="divLine"></div>
+			<div class="p-t-16 p-b-20 f-z14 c-888">
+				<span class="c-3355a3">应用场景</span><span ng-bind="item.scene"></span>
+			</div>
+			<div class="use">
+				<p ng-click="Login()">点击使用</p>
+			</div>
+		</li>		
+	</ul>
+	<!--<div class="clear"></div>-->
+	<div class="h66"></div>
+</div>

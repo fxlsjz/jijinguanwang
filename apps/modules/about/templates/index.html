@@ -1,0 +1,15 @@
+<div class="about">
+	<div class="w1120">
+		<ul class="fl">
+			<li ui-sref="navCut.about.aboutCompany" ng-class="{true: 'aboutCheck', false: ''}[aboutName == '/aboutCompany']">公司介绍</li>
+			<li ui-sref="navCut.about.aboutTeam" ng-class="{true: 'aboutCheck', false: ''}[aboutName == '/aboutTeam']">团队介绍</li>
+			<li ui-sref="navCut.about.aboutExpert" ng-class="{true: 'aboutCheck', false: ''}[aboutName == '/aboutExpert']">顾问专家</li>
+			<li ui-sref="navCut.about.aboutPartner" ng-class="{true: 'aboutCheck', false: ''}[aboutName == '/aboutPartner']">合作伙伴</li>
+		</ul>
+		<div class="fr" ui-view="">
+			
+		</div>
+		<div class="clear"></div>
+		<div class="h62"></div>
+	</div>
+</div>

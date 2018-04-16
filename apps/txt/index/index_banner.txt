@@ -1,0 +1,16 @@
+{
+    "banner": [
+        {
+	    	"images":"apps/images/index/banner_0.jpg"
+        },
+        {
+	    	"images":"apps/images/index/banner_1.jpg"
+        },
+        {
+	   	"images":"apps/images/index/banner_2.jpg"
+        },
+        {
+	   	"images":"apps/images/index/banner_3.jpg"
+        }
+    ]
+}

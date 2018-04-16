@@ -1,0 +1,19 @@
+<div class="solution">
+	<ul>
+		<li ng-repeat="item in solution" id="offsetS{{$index}}">
+			<div class="w1120">
+				<div class="imgLeft">
+					<div class="h60"></div>
+					<!--<span></span>-->
+					<img ng-src="{{item.images | baseUrl}}"/>
+				</div>
+				<div class="wordsRight">
+					<div class="c-555" ng-bind="item.title"></div>
+					<div class="c-c2c2c2 f-z20" ng-bind="item.english"></div>
+					<div class="borLine"></div>
+					<div class="content" ng-bind="item.content"></div>
+				</div>
+			</div>			
+		</li>		
+	</ul>
+</div>

@@ -1,0 +1,151 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: "Microsoft YaHei","微软雅黑", verdana, sans-serif;
+	overflow:auto;
+    color:#000;
+    background:#fff;
+    /*font-size: 12px;*/
+    /*line-height:166.6%;*/
+    /*text-align: center;*/
+	background-color: #F3F7FD;
+}
+ol, ul , p{
+    margin:0;
+}
+li {
+	list-style:none;
+}
+a:focus {
+    outline: none;
+}
+a,a:hover,a:active,a:focus{
+    text-decoration: none;
+    color:#fff;
+}
+.display-block {
+	display: block!important;
+}
+.display-none {
+	display: none!important;
+}
+
+.alls{
+	width: 100%;
+	height: 100%;
+	background-color:#0593FA;
+}
+.login{
+	width:360px;
+	height: 380px;
+	background-color: #fff;
+	position: absolute;
+	top: 85px;
+	right:0px;
+	/*margin-top:-190px;*/
+	padding:30px 37px;
+	right: 0;
+}
+.login>input{
+	width: 310px;
+}
+.users{
+	height: 46px;
+	width: 290px;
+	border:2px solid #dedede;
+	padding-left: 48px;
+}
+.passwords{
+	height: 50px;
+	width: 290px;
+	border:2px solid #dedede;
+	padding-left: 48px;
+}
+.remember{
+	margin-top:20px;
+}
+.u-check {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: .7em;
+    background: url(../../../images/dl_gouxuan.png) no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+}
+.u-check-cur {
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    top: .7em;
+    background: url(../../../images/dl_gouxuan_pressed.png) no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+}
+
+.remuser{
+	color: #4c4c4c;
+	font-size: 14px;
+	display: inline-block;
+	margin: 0;
+	text-indent: 2em;
+}
+.forgive{
+	font-size: 14px;
+	color:#DE1818;
+	float: right;
+	padding-top: 2px;
+	cursor: pointer;
+}
+.submits{
+	width: 290px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top:35px;
+	background: url(../../../images/denglu_btn.png) ;
+	cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+}
+.submits span,.t-a-c span{
+	width: 8px;
+    height: 2px;
+    display: inline-block;
+}
+.p-t-32 img,.p-t-20 img{
+	position: absolute;
+    top: 44px;
+    left: 15px;
+}
+.p-t-20 img{
+	top:32px;
+}
+
+
+/*修改密码*/
+.forgivebg{
+	height: 480px;
+	position: absolute;
+	top: 35px;
+	right:0px;
+}
+.reset{
+	padding-left:15px;
+}
+.gets{
+	font-size: 14px;
+	color:#1288DB;
+	position: absolute;
+    top: 34px;
+    right: 20px;
+    border-left: 2px solid #dedede;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.mb-5{
+	margin-bottom: -5%;
+}
+ 

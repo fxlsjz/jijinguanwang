@@ -1,0 +1,89 @@
+@charset "utf-8";
+*{ margin:0; padding:0;}
+body{ font-size:14px; background: #f2f3f7; font-family:微软雅黑;font-style:normal;width: 100%;height: 100%;}
+div{
+	outline:0 !important;
+	-webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);	
+	position:relative;
+}
+a{ text-decoration:none}
+a,a:hover{  transition:background 0.5s linear;-webkit-transition:background 0.5s linear;-moz-transition:background 0.5s linear;-o-transition:background 0.5s linear;}
+em, i{font-style: normal;}
+ul, ol, li{list-style: none;}
+img{ border:none;vertical-align:middle;}
+input,select,textarea{outline:none;border:none;background:none;}
+textarea{resize:none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{ clear:both; height:0px; width:100%; overflow:hidden;}
+.curpointer{cursor:pointer;}
+.w1920{width: 1920px; margin: 0 auto; /*padding-top: 63px;*/background-color: #F2F3F7;}
+
+.index_check{text-align: center; border-bottom: 3px #3355a3 solid;}
+.product_check{text-align: center; border-bottom: 3px #3355a3 solid;}
+.solution_check{text-align: center; border-bottom: 3px #3355a3 solid;}
+.about_check{text-align: center; border-bottom: 3px #3355a3 solid;}
+.contact_check{text-align: center; border-bottom: 3px #3355a3 solid;}
+/*公共头部*/
+.headers{
+	height: 63px;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+	background: #fff;
+}
+.wUl li{
+	font-size: 16px;
+	 color: #555555; 
+	 padding: 0px 10px;
+	 margin-left: 70px;
+	 margin-top: 24px;
+	 padding-bottom: 14px;
+	 }
+.wUl li:first-child{margin-left: 0px;}
+/*公共底部*/
+.footers{
+	width: 1920px;
+	margin: 0 auto;
+	/*height: 400px;*/
+	background: #2d3237;
+}
+.footers .footers-ul{
+	width: 1120px;
+	padding-top: 52px;
+	margin: 0 auto;
+}
+.footers .footers-ul li{
+	float: left;
+	width: 190px;
+	margin: 0px auto 0px 120px;
+}
+.footers .footers-ul li:first-child{margin: 0px;}
+.footers .footers-ul li h6{
+	font-size: 14px;
+	color: #3355a3;
+}
+.footers .footers-ul li #hr{
+	margin-bottom:30px;
+	color: #3355a3;
+	border-top: 1px solid #3355a3;
+}
+.footers .footers-ul li>p{
+	font-size: 13px;
+	color: #fff;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+.footers-p{
+	width: 1920px;
+	margin: 0 auto;
+	height: 52px;
+	line-height: 52px;
+	background: #23282d;
+	font-size: 12px;
+	color: #7f8183;
+	text-align: center;
+}
+

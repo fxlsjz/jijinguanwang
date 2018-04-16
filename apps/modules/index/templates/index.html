@@ -1,0 +1,28 @@
+<div class="indexCtrl" lazy-scroll>
+	<!--轮播图-->
+	<div class="banner" >
+		<div style="width: 1920px;  height: 540px">
+		    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+		      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+		        <img ng-src="{{slide.image}}" style="margin:auto;">
+		        <div class="carousel-caption">
+		          <!--<h4>Slide {{slide.id}}</h4>
+		          <p>{{slide.text}}</p>-->
+		        </div>
+		      </div>
+		    </div>
+		</div>
+	</div>
+	<!--产品介绍-->
+	<div class="product">
+		<h4>产品介绍PRODUCT</h4>
+		<ul class="product-ul clearfix">			
+			<li ng-repeat="x in names">
+				<img ng-src="{{x.images | baseUrl}}"/>
+				<!--<span class="four background-img" image-lazy-background-image="true" image-lazy-src="{{x.images | baseUrl}}"></span>-->
+				<div class="p-t-30 p-b-10 f-z14 c-555" ng-bind='x.Name'>产品功能</div>
+				<div class="f-z14 c-888" ng-bind="x.englishName">Product features</div>
+			</li>
+		</ul>
+	</div>
+</div>

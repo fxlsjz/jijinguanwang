@@ -1,0 +1,22 @@
+<div class="contact">
+	<div class="bannerC">
+		<div style="width: 1920px;  height: 260px">
+		    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+		      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+		        <img ng-src="{{slide.image}}" style="margin:auto;">
+		        <div class="carousel-caption">
+		          <!--<h4>Slide {{slide.id}}</h4>
+		          <p>{{slide.text}}</p>-->
+		        </div>
+		      </div>
+		    </div>
+		</div>
+	</div>
+	<div class="w1200">
+		<div class="contentC">
+			<div class="fl"></div>
+			<div class="fr"></div>
+		</div>
+	</div>
+	
+</div>

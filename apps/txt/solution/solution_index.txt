@@ -1,0 +1,23 @@
+﻿{
+    "solutionIndex": [
+        {
+            "title": "信用策略",
+	    "content":"我们为机构投资人提供符合其风险偏好的信用策略，以胜遇系统的数据支持，有效控制投资策略中的债务人或交易对手信用质量变化和违约风险，从而给降低对投资者带来损失的可能性。",
+	    "english":"Credit strategy",
+	    "images":"apps/images/solution/jjfa_zuoce_pic.png"
+        },
+	{
+            "title": "尽职调查",
+	    "content":"我们为客户提供一体化的尽职调查服务。我们一体化的尽职调查包括财务尽职调查、商业尽职调查和运营尽职调查。对于我们的客户而言，一体化的尽职调查具有诸多优势：结果全面、一致；报告易于使用，可无缝衔接投资评估流程；减少了项目管理工作难度，从而能更多关注交易风险。",
+	    "english":"Due diligence",
+	    "images":"apps/images/solution/jjfa_zuoce_pic.png"
+        },
+	{
+            "title": "IT方案",
+	    "content":"我们为机构投资者提供从流程梳理优化到流程管理系统实施的整体解决方案，实现“流程管理”+“IT落地”的有效融合。",
+	    "english":"IT solutions",
+	    "images":"apps/images/solution/jjfa_zuoce_pic.png"
+        }
+    ]
+}
+

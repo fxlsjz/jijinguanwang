@@ -1,0 +1,14 @@
+<!--成功加入关注-->
+<div class="cancel modal-backdrops fade" ng-if="noDatas"  ng-class="{'in':noDatas,'display-block':noDatas,'display-none':!noDatas}">
+	<div class="cancel-box" style="position: fixed;margin-top: -130px;">
+		<div class="tip">
+			<button class="closebtn" ng-click="closeDatas()"></button>
+		</div>		
+		<div>
+			<span class="tuImage"></span>
+		</div>
+		<p id="errorp">没有更多数据了</p>
+	</div>
+</div>
+<!-- 公用遮罩层  保存、加载... -->
+<div style="z-index:1002;opacity: 0;" ng-if="noDatas" class="modal-backdrop fade " ng-class="{'in': noDatas, 'display-block': noDatas, 'display-none':!noDatas}"></div>

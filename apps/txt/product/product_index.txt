@@ -1,0 +1,29 @@
+﻿{
+    "productIndex": [
+        {
+            "title": "定量分析",
+	    "content":"包括对单个主体、某个行业、某一区域的定量判定，基于企业的财务数据、行业的经济数据、区域的经济数据，预测企业评级变动和现金偿付能力，行业以及区域主体的信用风险。",
+	    "scene":"对拟投标的逐一、快速、高效的初判",
+	    "images":"apps/images/product/cpjs_dingliangfenxi_icon.png"
+        },
+        {
+            "title": "数据透视",
+	    "content":"挖掘异构数据的价值，将公开、准公开信息挖掘、分类，透视主体及担保等关联主体隐藏逻辑。",
+	    "scene":"从缤纷繁杂的信息海洋中发现价值",
+	    "images":"apps/images/product/cpjs_dingliangfenxi_icon.png"
+        },
+        {
+            "title": "风险分析",
+	    "content":"利用关联主体风险传导的识别模型，发现关注企业与关联主体之间的风险关系，对可能风险及早识别。",
+	    "scene":"发现关联主体风险传导",
+	    "images":"apps/images/product/cpjs_dingliangfenxi_icon.png"
+        },
+        {
+            "title": "投后监控",
+	    "content":"您可以将企业信息加入“收藏”，系统将按照系统预定条件（可自定义）发送预警信息。也可以对一个资产组合进行监控，同时对关联主体的风险传导、与黑名单内主体的风险相关性作出判断，系统将及时预警。",
+	    "scene":"第一时间的有效预警",
+	    "images":"apps/images/product/cpjs_dingliangfenxi_icon.png"
+        }
+    ]
+}
+

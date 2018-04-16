@@ -1,0 +1,14 @@
+<!--成功加入关注-->
+<div class="cancel modal-backdrops fade" ng-if="showDialog"  ng-class="{'in':showDialog,'display-block':showDialog,'display-none':!showDialog}">
+	<div class="cancel-box" style="position: fixed;margin-top: -130px;">
+		<div class="tip">
+			<button class="closebtn" ng-click="closeBox()"></button>
+		</div>
+		<div>
+			<span class="tuImage"></span>
+		</div>
+		<p id="errorp" ng-bind="dialogText"></p>
+	</div>
+</div>
+<!-- 公用遮罩层  保存、加载... -->
+<div style="z-index:1002;opacity: 0;" ng-if="showDialog" class="modal-backdrop fade " ng-class="{'in': showDialog, 'display-block': showDialog, 'display-none':!showDialog}"></div>

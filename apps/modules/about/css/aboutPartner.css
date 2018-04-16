@@ -1,0 +1,26 @@
+
+.aboutPartner .aPartner{
+	position: absolute;
+	top: -7px;
+	background-image: url(../../../images/about/gywm_hezuohuoban_bg.png);
+	width: 142px;
+	height: 41px;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+}
+.aboutPartner .content{
+	padding: 25px;
+}
+.aboutPartner .imgs{
+	padding-top: 90px;
+}
+.aboutPartner .imgs li{
+	float: left;
+	width: 163px;
+	height: 112px;
+	padding-right: 14px;
+	padding-bottom: 14px;
+	width: 173px;
+	height: 123px;
+}
